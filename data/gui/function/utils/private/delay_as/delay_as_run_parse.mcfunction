@@ -1,0 +1,1 @@
+function gui:utils/private/delay_as/delay_as_run with storage minecraft:utils Delay

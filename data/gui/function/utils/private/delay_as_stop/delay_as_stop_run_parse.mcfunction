@@ -1,0 +1,1 @@
+function gui:utils/private/delay_as_stop/delay_as_stop_run with storage minecraft:utils Delay

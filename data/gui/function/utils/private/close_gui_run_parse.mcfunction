@@ -1,0 +1,1 @@
+function gui:utils/private/set_pos with storage minecraft:utils Player.close_gui
