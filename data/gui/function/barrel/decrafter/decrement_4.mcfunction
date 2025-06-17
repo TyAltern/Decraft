@@ -4,5 +4,6 @@ execute at @s if items block ~ ~ ~ container.1 *[minecraft:count=3] run scoreboa
 execute at @s if items block ~ ~ ~ container.1 *[minecraft:count=4] run scoreboard players set SelectedItemCount decraft 1
 execute store result storage minecraft:ui SelectedItem.count int 1 run scoreboard players get SelectedItemCount decraft
 
-
 function gui:barrel/refresh
+
+function gui:barrel/decrafter/try_decraft_display

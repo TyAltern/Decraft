@@ -6,3 +6,5 @@ execute store result storage minecraft:ui SelectedItem.count int 1 run scoreboar
 
 
 function gui:barrel/refresh
+
+function gui:barrel/decrafter/try_decraft_display

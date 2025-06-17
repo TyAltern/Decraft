@@ -3,7 +3,7 @@
 # $say $(clicked_item_count)x $(clicked_item_id) in $(clicked_item_slot) $(clicked_item_is_from_ui)
 
 $function gui:utils/is_equal {"one":"$(clicked_item_is_from_ui)","two":"1","if":"data modify storage minecraft:operation result set value true","else":"data remove storage minecraft:operation result"}
-$say $(selected_item)
+# $say $(selected_item)
 data modify storage minecraft:utils give.player set from storage minecraft:ui CurrentPlayerName
 $data modify storage minecraft:utils give.items set value [$(selected_item)]
 execute if data storage minecraft:operation result run function gui:utils/give_unique with storage minecraft:utils give

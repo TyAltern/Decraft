@@ -4,20 +4,20 @@ $execute if data entity @s data.action.click.selected_item_command run function 
 
 clear @a *[minecraft:custom_data~{ui_item:1}]
 # Block the input of item in the result part
-scoreboard players set is_equal conditions 0
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"6","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"7","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"8","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"15","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"16","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"17","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"24","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"25","if":"scoreboard players set is_equal conditions 1","else":""}
-$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"26","if":"scoreboard players set is_equal conditions 1","else":""}
+scoreboard players set is_deposit_on_result conditions 0
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"6","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"7","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"8","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"15","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"16","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"17","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"24","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"25","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
+$function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"26","if":"scoreboard players set is_deposit_on_result conditions 1","else":""}
 
-$execute if score is_equal conditions matches 1 run data modify storage minecraft:ui current[{Slot:$(selected_item_slot)b}] set value {}
-execute if score is_equal conditions matches 1 run function gui:barrel/refresh
-$execute if score is_equal conditions matches 1 run return run function gui:utils/give_unique {player:$(player),items:[$(selected_item)]}
+$execute if score is_deposit_on_result conditions matches 1 run data modify storage minecraft:ui current[{Slot:$(selected_item_slot)b}] set value {}
+execute if score is_deposit_on_result conditions matches 1 run function gui:barrel/refresh
+$execute if score is_deposit_on_result conditions matches 1 run return run function gui:utils/give_unique {player:$(player),items:[$(selected_item)]}
 
 # Item Selection management
 data remove storage minecraft:operation Same

@@ -5,4 +5,5 @@ say GUI placed
 
 function gui:barrel/ui/main/open
 
+
 tag @s remove positionate_gui
