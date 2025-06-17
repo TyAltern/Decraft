@@ -14,7 +14,7 @@ data modify entity @s data.action.drop.selected_item_components set from entity 
 data modify entity @s data.action.drop.selected_item_is_from_ui set value 0
 execute if data entity @s data.action.drop.selected_item_components."minecraft:custom_data".ui_item run data modify entity @s data.action.drop.selected_item_is_from_ui set value 1
 
-data modify entity @s data.action.input.selected_item_command set value ""
-data modify entity @s data.action.input.selected_item_command set from entity @s data.action.input.selected_item_components."minecraft:custom_data".actions.on_drop.command
+data modify entity @s data.action.drop.selected_item_command set value ""
+data modify entity @s data.action.drop.selected_item_command set from entity @s data.action.drop.selected_item_components."minecraft:custom_data".actions.on_drop.command
 
 function gui:barrel/interactions/drop/on_drop_action with entity @s data.action.drop
