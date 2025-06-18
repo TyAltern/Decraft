@@ -1,0 +1,8 @@
+data modify storage minecraft:ui DecraftResult[0] set value {Slot:6b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[1] set value {Slot:7b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[2] set value {Slot:8b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[4] set value {Slot:16b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[6] set value {Slot:24b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[7] set value {Slot:25b,id:"minecraft:smooth_stone_slab","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[8] set value {Slot:26b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+return 1

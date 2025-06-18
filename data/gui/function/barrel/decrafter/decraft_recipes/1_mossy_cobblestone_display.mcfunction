@@ -1,0 +1,3 @@
+data modify storage minecraft:ui DecraftResult[0] set value {Slot:6b,id:"minecraft:cobblestone","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[1] set value {Slot:7b,id:"minecraft:moss_block","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+return 1

@@ -1,0 +1,1 @@
+$function gui:barrel/decrafter/decraft_recipes/$(count)_$(id)

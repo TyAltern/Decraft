@@ -29,11 +29,17 @@ $function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"18","if":"sco
 $function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"19","if":"scoreboard players set is_equal conditions 1","else":""}
 $function gui:utils/is_equal {"one":"$(selected_item_slot)","two":"20","if":"scoreboard players set is_equal conditions 1","else":""}
 
+scoreboard players set sum conditions 0
+execute at @s unless items block ~ ~ ~ container.18 * run scoreboard players add sum conditions 1
+execute at @s unless items block ~ ~ ~ container.19 * run scoreboard players add sum conditions 1
+execute at @s unless items block ~ ~ ~ container.20 * run scoreboard players add sum conditions 1
 scoreboard players set is_selected_item_empty conditions 0
 execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:barrier"}] run scoreboard players set is_selected_item_empty conditions 1
+# scoreboard players set is_selected_item_empty conditions 1
 
-$execute if score is_equal conditions matches 1 if score is_selected_item_empty conditions matches 1 run data modify storage minecraft:ui SelectedItem set value {Slot:1b,id:"$(selected_item_id)","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
-execute if score is_equal conditions matches 1 if score is_selected_item_empty conditions matches 1 run scoreboard players set SelectedItemCount decraft 1
+$execute if score sum conditions matches 2 run data modify storage minecraft:ui SelectedItem set value {Slot:1b,id:"$(selected_item_id)","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+execute if score sum conditions matches 2 run scoreboard players set SelectedItemCount decraft 1
+execute if score sum conditions matches 2 run data modify storage minecraft:ui SelectedItem.count set value 1
 
 $execute if score different conditions matches 1 unless score is_selected_item_empty conditions matches 1 run function gui:utils/give_unique {player:$(player),items:[$(selected_item)]}
 $execute if score different conditions matches 1 unless score is_selected_item_empty conditions matches 1 run data modify storage minecraft:ui current[{Slot:$(selected_item_slot)b}] set value {}
@@ -50,5 +56,6 @@ $execute if score different conditions matches 1 unless score is_selected_item_e
 
 
 
-
 function gui:barrel/refresh
+
+execute if score is_equal conditions matches 1 if score is_selected_item_empty conditions matches 1 run function gui:barrel/decrafter/try_decraft_display

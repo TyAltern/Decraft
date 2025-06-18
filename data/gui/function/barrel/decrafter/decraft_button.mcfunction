@@ -1,6 +1,7 @@
 
 # execute unless function gui:barrel/decrafter/is_result_empty_for_another run return fail
 
+function gui:barrel/decrafter/try_decraft_display
 
 execute at @s store result score #count_storage_slot_18 decraft run data get block ~ ~ ~ Items[{Slot:18b}].count
 execute at @s store result score #count_storage_slot_19 decraft run data get block ~ ~ ~ Items[{Slot:19b}].count
@@ -21,7 +22,7 @@ execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:barrier"}] run re
 
 execute if score count_storage decraft < required_count decraft run return fail
 
-execute unless function gui:barrel/decrafter/try_decraft run return fail
+function gui:barrel/decrafter/try_decraft
 
-function gui:barrel/decrafter/remove_from_storage
+execute if score craft_possible decraft matches 1 run function gui:barrel/decrafter/remove_from_storage
 

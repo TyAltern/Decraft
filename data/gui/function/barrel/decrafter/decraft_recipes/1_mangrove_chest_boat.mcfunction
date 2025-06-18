@@ -1,0 +1,2 @@
+data modify storage minecraft:ui decraft.output set value [{id:"minecraft:chest",count:1,Slot:0b},{id:"minecraft:mangrove_boat",count:1,Slot:1b}]
+function gui:barrel/decrafter/send_to_result with storage minecraft:ui decraft

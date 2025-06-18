@@ -1,0 +1,3 @@
+data modify storage minecraft:ui DecraftResult[1] set value {Slot:7b,id:"minecraft:heavy_core","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+data modify storage minecraft:ui DecraftResult[4] set value {Slot:16b,id:"minecraft:breeze_rod","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
+return 1
