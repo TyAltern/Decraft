@@ -1,4 +1,4 @@
-say GUI broke
+# say GUI broke
 
 execute at @s run kill @e[type=item, distance=..2,nbt={Item:{"components":{"minecraft:custom_data":{ui_item:1}}}}]
 execute at @s run kill @e[type=item, distance=..2,limit=1,sort=nearest,nbt={Item:{id:"minecraft:barrel"}}]
