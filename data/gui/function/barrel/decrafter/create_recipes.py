@@ -6208,10 +6208,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:diamond_tool_materials",
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
+      "minecraft:diamond",
       None,
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
       "minecraft:stick",
       None,
       None,
@@ -6220,7 +6220,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:diamond_tool_materials",
+        "id": "minecraft:diamond",
         "count": 3
       },
       {
@@ -6332,8 +6332,8 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:diamond_tool_materials",
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
+      "minecraft:diamond",
       None,
       None,
       "minecraft:stick",
@@ -6344,7 +6344,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:diamond_tool_materials",
+        "id": "minecraft:diamond",
         "count": 2
       },
       {
@@ -6384,9 +6384,9 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:diamond_tool_materials",
-      "#minecraft:diamond_tool_materials",
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
+      "minecraft:diamond",
+      "minecraft:diamond",
       None,
       "minecraft:stick",
       None,
@@ -6396,7 +6396,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:diamond_tool_materials",
+        "id": "minecraft:diamond",
         "count": 3
       },
       {
@@ -6412,7 +6412,7 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
       None,
       None,
       "minecraft:stick",
@@ -6424,7 +6424,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:diamond_tool_materials",
+        "id": "minecraft:diamond",
         "count": 1
       },
       {
@@ -6440,10 +6440,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
       None,
       None,
-      "#minecraft:diamond_tool_materials",
+      "minecraft:diamond",
       None,
       None,
       "minecraft:stick",
@@ -6452,7 +6452,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:diamond_tool_materials",
+        "id": "minecraft:diamond",
         "count": 2
       },
       {
@@ -9048,10 +9048,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:gold_tool_materials",
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
+      "minecraft:gold_ingot",
       None,
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
       "minecraft:stick",
       None,
       None,
@@ -9060,7 +9060,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:gold_tool_materials",
+        "id": "minecraft:gold_ingot",
         "count": 3
       },
       {
@@ -9176,8 +9176,8 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:gold_tool_materials",
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
+      "minecraft:gold_ingot",
       None,
       None,
       "minecraft:stick",
@@ -9188,7 +9188,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:gold_tool_materials",
+        "id": "minecraft:gold_ingot",
         "count": 2
       },
       {
@@ -9228,9 +9228,9 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:gold_tool_materials",
-      "#minecraft:gold_tool_materials",
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
+      "minecraft:gold_ingot",
+      "minecraft:gold_ingot",
       None,
       "minecraft:stick",
       None,
@@ -9240,7 +9240,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:gold_tool_materials",
+        "id": "minecraft:gold_ingot",
         "count": 3
       },
       {
@@ -9256,7 +9256,7 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
       None,
       None,
       "minecraft:stick",
@@ -9268,7 +9268,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:gold_tool_materials",
+        "id": "minecraft:gold_ingot",
         "count": 1
       },
       {
@@ -9284,10 +9284,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
       None,
       None,
-      "#minecraft:gold_tool_materials",
+      "minecraft:gold_ingot",
       None,
       None,
       "minecraft:stick",
@@ -9296,7 +9296,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:gold_tool_materials",
+        "id": "minecraft:gold_ingot",
         "count": 2
       },
       {
@@ -10300,10 +10300,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:iron_tool_materials",
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
       None,
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
       "minecraft:stick",
       None,
       None,
@@ -10312,7 +10312,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:iron_tool_materials",
+        "id": "minecraft:iron_ingot",
         "count": 3
       },
       {
@@ -10472,8 +10472,8 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:iron_tool_materials",
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
       None,
       None,
       "minecraft:stick",
@@ -10484,7 +10484,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:iron_tool_materials",
+        "id": "minecraft:iron_ingot",
         "count": 2
       },
       {
@@ -10596,9 +10596,9 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:iron_tool_materials",
-      "#minecraft:iron_tool_materials",
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
       None,
       "minecraft:stick",
       None,
@@ -10608,7 +10608,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:iron_tool_materials",
+        "id": "minecraft:iron_ingot",
         "count": 3
       },
       {
@@ -10624,7 +10624,7 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
       None,
       None,
       "minecraft:stick",
@@ -10636,7 +10636,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:iron_tool_materials",
+        "id": "minecraft:iron_ingot",
         "count": 1
       },
       {
@@ -10652,10 +10652,10 @@ crafting_recipe = [
       "count": 1
     },
     "output_display": [
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
       None,
       None,
-      "#minecraft:iron_tool_materials",
+      "minecraft:iron_ingot",
       None,
       None,
       "minecraft:stick",
@@ -10664,7 +10664,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:iron_tool_materials",
+        "id": "minecraft:iron_ingot",
         "count": 2
       },
       {
@@ -15400,7 +15400,7 @@ crafting_recipe = [
       "count": 4
     },
     "output_display": [
-      "#minecraft:pale_oak_logs",
+      "minecraft:pale_oak_log",
       None,
       None,
       None,
@@ -15412,7 +15412,7 @@ crafting_recipe = [
     ],
     "output": [
       {
-        "id": "#minecraft:pale_oak_logs",
+        "id": "minecraft:pale_oak_log",
         "count": 1
       }
     ]
@@ -19304,7 +19304,7 @@ crafting_recipe = [
       "minecraft:stick",
       None,
       "minecraft:stick",
-      "#minecraft:soul_fire_base_blocks",
+      "minecraft:soul_sand",
       "minecraft:stick",
       "minecraft:oak_log",
       "minecraft:oak_log",
@@ -19316,7 +19316,7 @@ crafting_recipe = [
         "count": 3
       },
       {
-        "id": "#minecraft:soul_fire_base_blocks",
+        "id": "minecraft:soul_sand",
         "count": 1
       },
       {
@@ -19366,7 +19366,7 @@ crafting_recipe = [
       "minecraft:stick",
       None,
       None,
-      "#minecraft:soul_fire_base_blocks",
+      "minecraft:soul_sand",
       None,
       None
     ],
@@ -19380,7 +19380,7 @@ crafting_recipe = [
         "count": 1
       },
       {
-        "id": "#minecraft:soul_fire_base_blocks",
+        "id": "minecraft:soul_sand",
         "count": 1
       }
     ]
@@ -24681,12 +24681,12 @@ slot_dict = {
 }
 
 
-folder_path = "data/gui/function/barrel/decrafter/decraft_recipes"
+folder_path = "gui/function/barrel/decrafter/decraft_recipes"
 
-# for filename in os.listdir(folder_path):
-#    file_path = os.path.join(folder_path, filename)
-#    if os.path.isfile(file_path):
-#       os.remove(file_path)
+for filename in os.listdir(folder_path):
+   file_path = os.path.join(folder_path, filename)
+   if os.path.isfile(file_path):
+      os.remove(file_path)
 
 
 
@@ -24702,9 +24702,9 @@ for recipe in crafting_recipe:
 # function gui:barrel/decrafter/send_to_result with storage minecraft:ui decraft
 # return 1
 
-  if os.path.isfile(f"data/gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}.mcfunction"):
+  if os.path.isfile(f"gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}.mcfunction"):
     continue
-  f = open(f"data/gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}.mcfunction", "x")
+  f = open(f"gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}.mcfunction", "x")
   line = "data modify storage minecraft:ui decraft.output set value ["
   for index_output in range(len(recipe['output'])):
     output = recipe['output'][index_output]
@@ -24725,9 +24725,9 @@ for recipe in crafting_recipe:
 # data modify storage minecraft:ui DecraftResult[6] set value {Slot:24b,id:"minecraft:oak_planks","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
 # data modify storage minecraft:ui DecraftResult[7] set value {Slot:25b,id:"minecraft:stick","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
 # data modify storage minecraft:ui DecraftResult[8] set value {Slot:26b,id:"minecraft:oak_planks","components":{"minecraft:custom_data":{ui_item:1,actions:{}}}}
-  if os.path.isfile(f"data/gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}_display.mcfunction"):
+  if os.path.isfile(f"gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}_display.mcfunction"):
     continue
-  f = open(f"data/gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}_display.mcfunction", "x")
+  f = open(f"gui/function/barrel/decrafter/decraft_recipes/{input_quantity}_{input_name[10:]}_display.mcfunction", "x")
   for index_output in range(len(recipe['output_display'])):
     output_id = recipe['output_display'][index_output]
     if output_id == None:
@@ -24739,9 +24739,9 @@ for recipe in crafting_recipe:
 
 # execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:oak_fence",count:3}] run return run function gui:barrel/decrafter/decraft_recipes/oak_fence
 
-  # with open("data/gui/function/barrel/decrafter/try_decraft.mcfunction", 'a') as file:
+  # with open("gui/function/barrel/decrafter/try_decraft.mcfunction", 'a') as file:
   # # print("execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:\"" + input_name + "\",count:" + str(input_quantity) + "}] run return run function gui:barrel/decrafter/decraft_recipes/" + recipe_name)
   #   file.write("execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:\"" + input_name + "\",count:" + str(input_quantity) + "}] run return run function gui:barrel/decrafter/decraft_recipes/" + recipe_name + "\n")
-  # with open("data/gui/function/barrel/decrafter/try_decraft_display.mcfunction", 'a') as file:
+  # with open("gui/function/barrel/decrafter/try_decraft_display.mcfunction", 'a') as file:
   # # print("execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:\"" + input_name + "\",count:" + str(input_quantity) + "}] run return run function gui:barrel/decrafter/decraft_recipes/" + recipe_name)
   #   file.write("execute at @s if data block ~ ~ ~ Items[{Slot:1b,id:\"" + input_name + "\",count:" + str(input_quantity) + "}] run return run function gui:barrel/decrafter/decraft_recipes/" + recipe_name + "_display\n")
